@@ -1,6 +1,6 @@
 #include "shell.h"
 /**
- * tokenize_cmd - Tokenize the given command.
+ * tokenize_command - Tokenize the given command.
  * @cmd: The command to tokenize.
  * @args: The array to store the tokenized arguments.
  */

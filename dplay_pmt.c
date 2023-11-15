@@ -3,7 +3,7 @@
  * dplay_pmt - Display the shell prompt
  * including the current working directory.
  */
-void dplay_pmpt(void)
+void dplay_pmt(void)
 {
 	char cwd[MAX_BUFF_SIZE];
 

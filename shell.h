@@ -29,20 +29,20 @@ char *custom_getline();
  */
 void ch_directory(char *direc);
 /**
- * exec_cmd - Execute the given command.
+ * exece_command - Execute the given command.
  * @cmd: The command to execute.
  */
-void exece_cmd(char *cmd);
+void exece_command(char *cmd);
 /**
  * rd_cmd - Read a command from standard input.
  * @cmd: Buffer to store the read command.
  */
 void rd_cmd(char *cmd);
 /**
- * tokenize_cmd - Tokenize the given command.
+ * tokenize_command - Tokenize the given command.
  * @cmd: The command to tokenize.
  * @args: The array to store the tokenized arguments.
  */
-void tokenize_cmd(char *cmd, char *args[]);
+void tokenize_command(char *cmd, char *args[]);
 
 #endif

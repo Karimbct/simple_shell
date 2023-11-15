@@ -1,21 +1,21 @@
 #include"shell.h"
 /**
- * exec_cmd - Execute the given command.
+ * exece_command - Execute the given command.
  * @cmd: The command to execute.
  */
-void exec_cmd(char *cmd)
+void exece_command(char *cmd)
 {
 	char *args[MAX_CMD_LENGTH];
 	pid_t pid;
 
 	if (strncmp(cmd, "cd", 2) == 0)
 	{
-		tokenize_cmd(cmd, args);
+		tokenize_command(cmd, args);
 		ch_directory(args[1]);
 	}
 	else
 	{
-		tokenize_cmd(cmd, args);
+		tokenize_command(cmd, args);
 		pid = fork();
 		if (pid < 0)
 		{

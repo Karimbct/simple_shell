@@ -10,6 +10,6 @@ int main(void)
 	printf("============Simple Shell============\n");
 	while (dplay_pmt(), rd_cmd(cmd),
 			strcmp(cmd, "exit") != 0)
-		exece_cmd(cmd);
+		exece_command(cmd);
 	return (0);
 }
